@@ -13,4 +13,4 @@ Small and very simple OSX Status Bar App to show if Internet is working
 
 ## How to set up to start on login
 1. Open `System Preferences` > `Users & Groups`
-2. Add Download `Pinger.app` to `Login Items`
+2. Add Downloaded `Pinger.app` to `Login Items`
