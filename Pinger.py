@@ -16,13 +16,10 @@ class InternetStatusApp(rumps.App):
 
     @rumps.timer(1)
     def updateTitle(self, sender):
-        self.title = self.getAppTitle()
+        self.title = self.getStatus()
 
     def getStatus(self):
         return "🟢" if ping("http://www.google.com") else "🔴"
-
-    def getAppTitle(self):
-        return self.getStatus()
 
 
 app = InternetStatusApp()
